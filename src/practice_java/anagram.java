@@ -2,7 +2,7 @@ package practice_java;
 
 public class anagram {
     public static void main(String[] args) {
-      String word="funeral not fun";
+      String word="funeral";
       String word2="real fun";
       word2=word2.replaceAll(" ","");
       if(word.length()==word2.length()){
